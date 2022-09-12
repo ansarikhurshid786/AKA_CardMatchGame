@@ -99,7 +99,7 @@ const App = () => {
                 setTotal(totalVal);
                 setTimeout(() => {
                   checkCondition();
-                }, 1000);
+                }, 500);
               }}
             >
               <Text key={index} style={styles.boxText}>{item.isShown ? item.value : "?"}</Text>
